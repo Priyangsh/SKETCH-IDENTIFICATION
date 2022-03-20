@@ -1,0 +1,27 @@
+body{
+    background-color: gold;
+}
+h1{
+    color: rgb(255, 0, 0);
+    background-color: gold;
+}
+
+#show_sketch{
+    float: right;;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+canvas{
+    border: 5px solid white;
+    border-radius:20px;
+    animation-name:bgEffect;
+    animation-duration: 10s;
+    margin-top: 120px;
+    animation-iteration-count:infinite ;
+}
+@keyframes bgEffect{
+    from{box-shadow: 1px 1px 40px grey;}
+    to{box-shadow: 1px 1px 40px white;}
+}
